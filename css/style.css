@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  color: #black;
+  color: black;
   font-size: 16px;
 }
 
@@ -10,6 +10,9 @@ nav {
   position: fixed;
   width: 100%;
 }
+
+<STYLE>A {text-decoration: none;} </STYLE>
+
 
 .logo {
   margin: 20px;
@@ -40,8 +43,7 @@ a:link, a:visited {
   color: white;
 }
 
-
-.right:hover {
+a:hover {
   color:#9B51E0
 } /*mouse over*/
 
@@ -72,6 +74,10 @@ h3 {
   font-size: 18px;
   line-height: 1.5;
   padding-top: 12px;
+}
+
+p {
+  padding-bottom: 14px;
 }
 
 ul {
